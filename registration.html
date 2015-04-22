@@ -132,43 +132,33 @@
 								</tr>
 							</tbody>
 						</table>
-						<!-- <p class="caption">
-							<li><strong>Mode of Payment: </strong>  preferably through Bank Transfer </li>
-							<li><strong>Recipient Bank: </strong> State Bank of India </li>
-							<li><strong>Account No:</strong> 30803684122 </li>
-							<li><strong>IFS CODE: </strong> SBIN0010720 </li>
-							<li><strong>Branch Code: </strong> 010720 </li>
-							<li><strong>Account holder: </strong> BITS PILANI K. K. BIRLA GOA CAMPUS </li>
-							<li><strong>Message to be included: </strong> Registration fee for "NFCFA2015" </li>
-
-						</p> -->
 					</div>
 				</div>
 			</div>
 			
 			<div class="row">
-				<form class="col s12" method="post" action="">
+				<form class="col s12" method="POST" action="confirm.php">
 				
 					<h3 class="header teal-text">Registration Form</h3>
 					
 					<div class="row">
 						<div class="input-field col s6">
-							<input id="first_name" type="text" class="validate">
+							<input name="first_name" type="text" class="validate">
 							<label for="first_name">First Name</label>
 						</div>
 						<div class="input-field col s6">
-							<input id="last_name" type="text" class="validate">
+							<input name="last_name" type="text" class="validate">
 							<label for="last_name">Last Name</label>
 						</div>
 					</div>
 					
 					<div class="row">
 						<div class="input-field col s6">
-							<input id="designation" type="text" class="validate">
+							<input name="designation" type="text" class="validate">
 							<label for="designation">Designation</label>
 						</div>
 						<div class="input-field col s6">
-							<input id="organization" type="text" class="validate">
+							<input name="organization" type="text" class="validate">
 							<label for="organization">Organization</label>
 						</div>
 					</div>
@@ -176,7 +166,7 @@
 	
 					<div class="row">
 						<div class="input-field col s12">
-							<textarea id="address" class="materialize-textarea"></textarea>
+							<textarea name="address" class="materialize-textarea"></textarea>
 							<label for="address">Address</label>
 						</div>
 					</div>
@@ -184,11 +174,11 @@
 					
 					<div class="row">
 						<div class="input-field col s6">
-							<input id="pincode" type="text" class="validate">
+							<input name="pincode" type="text" class="validate">
 							<label for="pincode">Pincode</label>
 						</div>
 						<div class="input-field col s6">
-							<input id="city" type="text" class="validate">
+							<input name="city" type="text" class="validate">
 							<label for="city">City</label>
 						</div>
 					</div>
@@ -196,11 +186,11 @@
 					
 					<div class="row">
 						<div class="input-field col s6">
-							<input id="telephone" type="text" class="validate">
+							<input name="telephone" type="text" class="validate">
 							<label for="telephone">Telephone</label>
 						</div>
 						<div class="input-field col s6">
-							<input id="mobile" type="text" class="validate">
+							<input name="mobile" type="text" class="validate">
 							<label for="mobile">Mobile</label>
 						</div>
 					</div>
@@ -208,7 +198,7 @@
 					
 					<div class="row">
 						<div class="input-field col s12">
-							<input id="email" type="text" class="validate">
+							<input name="email" type="text" class="validate">
 							<label for="email">Email</label>
 						</div>
 					</div>
@@ -242,6 +232,26 @@
 							</p>
 						</div>
 						
+					</div>
+					<div class="row">
+						<div class="input-field col s6">
+							<input name="acco_fee" type="text" class="validate">
+							<label for="acco_fee">Accommodation Fee</label>
+						</div>
+						<div class="input-field col s6">
+							<input name="reg_fee" type="text" class="validate">
+							<label for="reg_fee">Registration Fee</label>
+						</div>
+					</div>
+					<div class="row">
+						<div class="input-field col s6">
+							<input name="total" type="text" class="validate">
+							<label for="total">Total Amount</label>
+						</div>
+						<div class="input-field col s6">
+							<input name="trans_id" type="text" class="validate">
+							<label for="trans_id">Transaction ID</label>
+						</div>
 					</div>
 				
 					<br>
