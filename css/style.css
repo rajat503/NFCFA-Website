@@ -21,3 +21,7 @@ header, main, footer {
 .dp {
 	width: 160px;
 }
+.caption
+{
+	text-align: justify;
+}
