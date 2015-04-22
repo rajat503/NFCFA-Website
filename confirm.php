@@ -61,7 +61,11 @@ if(!$mail->send()) {
 	}
 	else
 	{
-		header('Location: incomplete.html');;
+		header('Location: incomplete.html');
 	}
+}
+else
+{
+	header('Location: incomplete.html');
 }
 ?>
