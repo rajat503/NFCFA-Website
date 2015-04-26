@@ -7240,7 +7240,7 @@ select {
 
 .slider {
   position: relative;
-  height: 440px;
+  height: 340px;
   width: 100%; }
   .slider.fullscreen {
     height: 100%;
@@ -7257,7 +7257,7 @@ select {
   .slider .slides {
     background-color: #9e9e9e;
     margin: 0;
-    height: 400px; }
+    height: 300px; }
     .slider .slides li {
       opacity: 0;
       position: absolute;
