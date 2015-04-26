@@ -223,53 +223,84 @@
 					</div>
 					
 					<div class="row">
-						<div class="input-field col s6">
+						<div class="input-field col s4">
 							<p>
 								Accommodation Required:
 							</p>
 							<p>
-								<input name="acco" type="radio" id="acco_yes" />
+								<input name="acco" type="radio" id="acco_yes" value="yes" />
 								<label for="acco_yes">Yes</label>
 							</p>
 							<p>
-								<input name="acco" type="radio" id="acco_no" />
+								<input name="acco" type="radio" id="acco_no" value="no" />
 								<label for="acco_no">No</label>
 							</p>
 						</div>
 						
-						<div class="input-field col s6">
+						<div class="input-field col s4">
 							<p>
 								Preference:
 							</p>
 							<p>
-								<input name="oral_poster" type="radio" id="oral" />
+								<input name="oral_poster" type="radio" id="oral" value="oral" />
 								<label for="oral">Oral</label>
 							</p>
 							<p>
-								<input name="oral_poster" type="radio" id="poster" />
+								<input name="oral_poster" type="radio" id="poster" value="poster" />
 								<label for="poster">Poster</label>
+							</p>
+						</div>
+						<div class="input-field col s4">
+							<p>
+								Abstract Enclosed:
+							</p>
+							<p>
+								<input name="abstract" type="radio" id="abstract_yes" value="yes" />
+								<label for="abstract_yes">Yes</label>
+							</p>
+							<p>
+								<input name="abstract" type="radio" id="abstract_no" value="no"/>
+								<label for="abstract_no">No</label>
 							</p>
 						</div>
 						
 					</div>
+					<br>
+					<div class="row">
+						<div class="input-field col s12">
+							<textarea name="accompany" class="materialize-textarea"></textarea>
+							<label for="accompany">Accompanying Person Name (Max two, if any)</label>
+						</div>
+					</div>
 					<div class="row">
 						<div class="input-field col s6">
 							<input name="acco_fee" type="text" class="validate">
-							<label for="acco_fee">Accommodation Fee</label>
+							<label for="acco_fee">Total Accommodation Fee</label>
 						</div>
 						<div class="input-field col s6">
 							<input name="reg_fee" type="text" class="validate">
-							<label for="reg_fee">Registration Fee</label>
+							<label for="reg_fee">Total Registration Fee</label>
 						</div>
 					</div>
 					<div class="row">
 						<div class="input-field col s6">
 							<input name="total" type="text" class="validate">
 							<label for="total">Total Amount</label>
+						</div>	
+				
+						<div class="input-field col s6">
+							<input name="bank" type="text" class="validate">
+							<label for="bank">Name of Bank and Branch</label>
 						</div>
+					</div>
+					<div class="row">
 						<div class="input-field col s6">
 							<input name="trans_id" type="text" class="validate">
 							<label for="trans_id">Transaction ID</label>
+						</div>
+						<div class="input-field col s6">
+							<input name="date" type="text" class="validate">
+							<label for="date">Date</label>
 						</div>
 					</div>
 				
