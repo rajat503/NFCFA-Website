@@ -35,12 +35,12 @@ $mail->Password = '';                           // SMTP password
 $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 587;                                    // TCP port to connect to
 
-$mail->From = '';
-$mail->FromName = 'Mailer';
-$mail->addAddress('');     // Add a recipient
+$mail->From = 'nfcfa2015@gmail.com';
+$mail->FromName = 'NFCFA 2015';
+$mail->addAddress($email);     // Add a recipient
 // $mail->addAddress('ellen@example.com');               // Name is optional
 // $mail->addReplyTo('info@example.com', 'Information');
-// $mail->addCC('cc@example.com');
+$mail->addCC('mainak@goa.bits-pilani.ac.in');
 // $mail->addBCC('bcc@example.com');
 
 // $mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
