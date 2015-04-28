@@ -7240,7 +7240,7 @@ select {
 
 .slider {
   position: relative;
-  height: 400px;
+  height: 380px;
   width: 100%; }
   .slider.fullscreen {
     height: 100%;
