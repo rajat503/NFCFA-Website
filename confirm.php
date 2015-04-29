@@ -42,7 +42,7 @@ $mail->FromName = 'NFCFA 2015';
 $mail->addAddress($email);     // Add a recipient
 // $mail->addAddress('ellen@example.com');               // Name is optional
 // $mail->addReplyTo('info@example.com', 'Information');
-$mail->addCC('mainak@goa.bits-pilani.ac.in');
+// $mail->addCC('mainak@goa.bits-pilani.ac.in');
 // $mail->addBCC('bcc@example.com');
 
 // $mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
